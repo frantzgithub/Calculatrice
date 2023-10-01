@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+.contenu{
+    width: 40%;
+    background-color: teal;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 10px black;
+    text-align: center;
+}
+.contenu h2{
+     color:yellow;
+     font-weight: 350;
+}
+.contenu input{
+    width: 100%;
+    display: block;
+    padding: 6px 10px;
+    margin: 10px 0;
+}
+.contenu input:focus{
+    outline: none;
+}
+.contenu button{
+    padding: 10px 15px;
+    border:none;
+    background-color: black;
+    color:yellow;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:8px;
+    cursor:pointer;
+}
+.contenu button:hover{
+    background-color: yellow;
+    color:teal;
+}
+
+@media screen and (max-width:600px ){
+    .contenu{
+        width: 70%;
+    }
+}
